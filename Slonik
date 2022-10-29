@@ -1,0 +1,13 @@
+﻿
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+	int x, n = 5, i = 0;
+	cin >> x;
+	i = x / n;
+	if (x % n != 0)
+		i += 1;
+	cout << i;
+}
